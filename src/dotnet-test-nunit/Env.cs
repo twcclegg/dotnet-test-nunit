@@ -34,7 +34,7 @@ namespace NUnit.Runner
     {
         static Env()
         {
-#if NETSTANDARD1_5 || NETCOREAPP1_0
+#if NETSTANDARD1_5 || NETSTANDARD1_6 || NETCOREAPP1_0
             DocumentFolder = ".";
             string drive = Environment.GetEnvironmentVariable("HOMEDRIVE");
             string path = Environment.GetEnvironmentVariable("HOMEPATH");

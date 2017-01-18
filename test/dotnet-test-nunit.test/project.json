@@ -27,6 +27,15 @@
         }
       }
     },
+    "netstandard1.6": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "NETStandard.Library": {
+          "version": "1.6.0",
+          "type": "platform"
+        }
+      }
+    },
     "net451": {}
   }
 }

@@ -32,6 +32,17 @@
         "System.Console": "4.0.0"
       }
     },
+    "netstandard1.6": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "NETStandard.Library": {
+          "version": "1.6.0",
+          "type": "platform"
+        },
+        "System.IO.FileSystem": "4.0.1",
+        "System.Console": "4.0.0"
+      }
+    },
     "net451": {}
   }
 }
